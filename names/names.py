@@ -28,15 +28,7 @@ for names in names_2:
         duplicates.add_to_tail(names)
 
 end_time = time.time()
-print (f"{duplicates.length} duplicates:\n\n\n\n")
+print (f"{duplicates.length} {duplicates.display()}\n\n\n\n")
 print (f"runtime: {end_time - start_time} seconds")
 
-# tree = BinarySearchTree(' ')
-
-# for names in name_1:
-#     tree.insert(names)
-
-# for names in names_2:
-#     if tree.contains(names):
-#         duplicates.append(names)
 

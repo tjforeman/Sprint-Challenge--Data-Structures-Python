@@ -118,3 +118,9 @@ class DoublyLinkedList:
             current = current.next
 
         return max_value 
+    def display(self):       
+        current = self.head        
+        while(current is not None):     
+            print(current.value)   
+            current = current.next    
+                
